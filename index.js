@@ -22,7 +22,7 @@ app.use("/api",sendmail)
 mongoose.connect(process.env.MONGO_URI)
 .then(()=>console.log("Connected to Database"))
 .catch(()=>console.log("Disconnect from database"))
-app.gett("/",(req,res)=>{
+app.get("/",(req,res)=>{
     console.log("hello pandit ji")
     res.send("hello from server")
 });
