@@ -10,8 +10,8 @@ import cors from "cors"
 
 app.use(cors({
     origin: [
-      "https://mpholidaybackend.onrender.com/",
-      "https://incomparable-mooncake-d86c68.netlify.app/",
+      "https://mpholidaybackend.onrender.com",
+      "https://incomparable-mooncake-d86c68.netlify.app",
    
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
